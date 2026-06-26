@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# 🏗️ ConstructAI
+![ConstructAI Infographic](./assets/images/ConstructAI PROJECT SUMMARY.png)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+ConstructAI is a cross-platform mobile application engineered specifically for civil engineering professionals, site supervisors, and structural consultants. It streamlines field calculations by combining structural estimation tools with materials science tracking in a clean, offline-ready interface.
 
-1. Install dependencies
+## 🚀 Core Features
 
+* **Concrete Mix Design Calculator:** Fast, precision calculations for various concrete grades (e.g., M20, M25) adhering to standard engineering mix ratios.
+* **Structural Load Vector Estimator:** Quick assessment tools for evaluating load distributions and structural vectors directly on-site.
+* **On-Device Storage:** Safely log and review past calculation histories without requiring active internet connectivity.
+
+## 🛠️ Technical Architecture
+
+* **Framework:** React Native (Expo SDK 54) for native performance on Android & iOS.
+* **Styling & UI:** Tailwind CSS (via NativeWind) / Custom Theme Constants for a clean, modern design layout.
+* **Navigation:** Expo Router using robust file-based tab navigation.
+* **Distribution:** Packaged via Expo Application Services (EAS) for seamless standalone builds.
+
+## 📦 Local Installation & Development
+
+To run this project locally on your machine for development:
+
+1. Clone the repository and navigate to the project directory.
+2. Install the necessary project dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. Start the local Expo development server:
    ```bash
    npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Scan the QR code using the **Expo Go** app on an Android device to test the live app.

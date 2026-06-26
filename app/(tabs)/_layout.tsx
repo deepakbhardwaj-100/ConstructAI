@@ -1,6 +1,6 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { Platform } from 'react-native';
+import { Platform, Text } from 'react-native'; // Added Text here
 // Use standard built-in vector icons to bypass path errors entirely
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
@@ -13,7 +13,7 @@ export default function TabLayout() {
           ios: { position: 'absolute', backgroundColor: '#0D1520', borderTopColor: '#23354E' },
           default: { backgroundColor: '#0D1520', borderTopColor: '#23354E', height: 60, paddingBottom: 8 },
         }),
-        tabBarActiveTintColor: '#3182CE',     // Sharp electric blue for active navigation
+        tabBarActiveTintColor: '#0D9488', // Swapped from blue to Emerald Teal
         tabBarInactiveTintColor: '#64748B',   // Muted gray for resting tabs
       }}>
       
@@ -34,6 +34,18 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <FontAwesome6 size={20} name="calculator" color={color} />,
         }}
       />
+
+      {/* Tab 3: Steel Weight Estimator */}
+      <Tabs.Screen
+        name="steel"
+        options={{
+          title: 'Steel Weight',
+          tabBarIcon: ({ color }) => (
+            <Text style={{ color, fontSize: 20 }}>🏗️</Text>
+          ),
+        }}
+      />
+
     </Tabs>
   );
 }

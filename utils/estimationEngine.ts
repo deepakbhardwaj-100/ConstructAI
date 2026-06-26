@@ -60,3 +60,19 @@ export function calculateConcreteQuantities(input: CalculationInput): Estimation
     aggregateCft
   };
 }
+/**
+ * Calculates the total weight of reinforcement steel bars in kilograms.
+ * @param diameter Bar diameter in millimeters (mm)
+ * @param length Total length of bars in meters (m)
+ * @returns Total weight in kilograms (kg) rounded to 2 decimal places
+ */
+export function calculateSteelWeight(diameter: number, length: number): number {
+  if (diameter <= 0 || length <= 0) return 0;
+  
+  // Standard civil engineering calculation formula (D^2 / 162.2) * Length
+  const weightPerMeter = (diameter * diameter) / 162.198;
+  const totalWeight = weightPerMeter * length;
+  
+  return parseFloat(totalWeight.toFixed(2));
+}
+

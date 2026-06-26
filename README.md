@@ -1,5 +1,5 @@
 # 🏗️ ConstructAI
-<img width="1024" height="1536" alt="ConstructAI PROJECT SUMMARY" src="https://github.com/user-attachments/assets/8d719cf7-ba68-491a-8823-af63da0e631b" />
+<img width="500" alt="ConstructAI PROJECT SUMMARY" src="https://github.com/user-attachments/assets/8d719cf7-ba68-491a-8823-af63da0e631b" />
 
 
 ConstructAI is a cross-platform mobile application engineered specifically for civil engineering professionals, site supervisors, and structural consultants. It streamlines field calculations by combining structural estimation tools with materials science tracking in a clean, offline-ready interface.

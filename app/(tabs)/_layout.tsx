@@ -11,7 +11,7 @@ export default function TabLayout() {
         headerShown: false,
         tabBarStyle: Platform.select({
           ios: { position: 'absolute', backgroundColor: '#0D1520', borderTopColor: '#23354E' },
-          default: { backgroundColor: '#0D1520', borderTopColor: '#23354E', height: 60, paddingBottom: 8 },
+           default: { backgroundColor: '#0D1520', borderTopColor: '#23354E', height: 75 , paddingBottom: 24 , paddingTop: 10, },
         }),
         tabBarActiveTintColor: '#0D9488', // Swapped from blue to Emerald Teal
         tabBarInactiveTintColor: '#64748B',   // Muted gray for resting tabs
